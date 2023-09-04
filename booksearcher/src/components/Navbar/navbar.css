@@ -1,0 +1,54 @@
+nav {
+    width: 1920px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.search_input, .search_button {
+    height: 12px;
+    border: none;
+    outline: none;
+}
+
+.search_input {
+    width: 650px;
+    border-radius: 18px 0 0  18px;
+    padding: 15px;
+}
+
+.search_button {
+    height: 42px;
+    cursor: pointer;
+    background-color: rgb(248, 151, 72);
+    border-radius: 0px 18px 18px 0px
+}
+
+.search_tags {
+    display: flex;
+    margin-top: 25px;
+}
+
+.date_filter-container {
+    margin-left: 15px;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+select {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    outline: none;
+    cursor: pointer;
+}
